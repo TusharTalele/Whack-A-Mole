@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wack A Mole GAME</title>
+	<script type="text/javascript" src="jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="whackamolegame.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="whack.css"></script>
+</head>
+<body>
+	<h2>Whack A Mole Game - Please enter values to start</h2>
+
+	<div id="main">
+		<div id="message">Game Messages.</div>
+		<table border="2">
+			<tr>
+				<td><label for="columnsCount">How many Columns (minimum 2) :- </label></td>
+				<td><input type="text" id="columnsCount"></td>
+			</tr>
+	
+			<tr>
+				<td><label for="whacksCount">How many Whacks you want (minimum 2):- </label></td>
+				<td><input type="text" id="whacksCount"></td>
+			</tr>
+	
+			<tr>
+				<td><label for="time">Time in seconds to end game (minimum 5):- </label></td>
+				<td><input type="text" id="time"></td>
+			</tr>
+	
+			<tr> <td colspan="2" align="center"><input type="button" value="Start" id="start"></td>
+			</tr>
+					
+		</table>
+	</div>
+	<div id="game"></div>
+
+</body>
+</html>
